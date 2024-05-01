@@ -19,7 +19,7 @@ const Card = ({
     <div className={className}>
       <Link className="basis-full hover:opacity-70" href="/">
         <div className={`relative w-auto mb-3 ${imageHeight}`}>
-          <Image
+          {/* <Image
             fill
             alt="tech"
             placeholder="blur"
@@ -29,7 +29,7 @@ const Card = ({
                   (max-width: 1060px) 50vw,
                   33vw"
             style={{ objectFit: "cover" }}
-          />
+          /> */}
         </div>
       </Link>
       <div className="basis-full">
